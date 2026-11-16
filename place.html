@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Idaho - one of the places in America that I wish to visit during my graduation.">
+    <meta name="author" content="Alfred Aondoaver Igba">
+    <title>Idaho</title>
+    <link rel="stylesheet" href="styles/place.css" />
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Idaho</h1>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <picture>
+                <source srcset="images/idaho.webp" media="(min-width: 768px)">
+                <img src="images/idaho.webp"
+                    alt="Idaho State Capitol"
+                    width="1200"
+                    height="800">
+            </picture>
+        </section>
+
+        <section class="data">
+            <h2>Data</h2>
+
+        <div class="info-grid">
+        <span class="label">Area:</span>
+        <span>216,443 sq km</span>
+
+        <span class="label">Population:</span>
+        <span>2.0 Million+</span>
+
+        <span class="label">Capital:</span>
+        <span>Boise</span>
+
+        <span class="label">Largest City:</span>
+        <span>Boise</span>
+
+        <span class="label">Statehood:</span>
+        <span>July 3, 1890</span>
+
+        <span class="label">Nickname:</span>
+        <span>The Gem State</span>
+
+        <span class="label">Motto:</span>
+        <span>Esto Perpetua</span>
+
+        <span class="label">Time Zone:</span>
+        <span>Mountain / Pacific</span>
+
+        <span class="label">Highest Point:</span>
+        <span>Borah Peak</span>
+
+        <span class="label">State Bird:</span>
+        <span>Mountain Bluebird</span>
+    </div>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+
+            <img src="images/weather.svg"
+                alt="Partly cloudy weather icon"
+                class="weather-icon">
+
+            <p><strong>Temperature:</strong> <span id="temperature">10</span> °C</p>
+            <p><strong>Conditions:</strong> Partly Cloudy</p>
+            <p><strong>Wind:</strong> <span id="wind-speed">5</span> km/h</p>
+            <p><strong>Wind Chill:</strong> <span id="windchill"></span></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> Alfred Aondoaver Igba | Madagascar
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+</html>
